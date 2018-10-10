@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Kennas Portfolio | For Hire`,
+    title: 'Badassery of Makenna Smutz (Portfolio)',
   },
-  plugins: [`gatsby-plugin-react-helmet`],
+  plugins: ['gatsby-plugin-react-helmet'],
 }

@@ -1,15 +1,16 @@
-import React from "react"
-import Link from "gatsby-link"
-import Helmet from "react-helmet"
+import React from 'react'
+import Link from 'gatsby-link'
 
-export default class Index extends React.Component {
-	render() {
-		return (
-			<div>
-				<h1>Hey, I am Makenna!</h1>
-				<p>I am uniquely skilled in design, development & marketing.<br />I would love to combine these into a position such as: <br/>developer advocate, marketing developer, or product manager.</p>
-				<Link to="/page-2/">Hire Me</Link>
+const IndexPage = () => (
+	<div>
+		<div class="Hero">
+			<div class="HeroGroup">
+				<h1>Learn to <br />design and code React apps</h1>
+				<p>Complete courses about the best tools and design systems. Prototype and build apps with React and Swift.</p>
+				<Link to="/page-2/">Go to page 2</Link>
 			</div>
-		)
-	}
-}
+		</div>
+	</div>
+)
+
+export default IndexPage
